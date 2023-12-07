@@ -1,0 +1,164 @@
+@media(max-width:768px) {
+
+    .header-link {
+        font-family: 'Red-Medium';
+        font-size: 12px;
+        line-height: 16px;
+        font-weight:500 ;
+    
+    }
+    .header-item2{
+        display: none;
+    }
+    .card {
+        display: flex;
+        justify-content: space-between;
+        gap: 20px;
+    }
+    .card-item {
+        
+        flex-basis: 32%;
+        box-sizing: border-box;
+        border: 1px solid rgba(0, 0, 0, 0.5);
+        
+    }
+    .card-cover {
+        position: relative;
+        overflow: hidden;
+        width: 500px;
+        height: 484px;
+    }
+    .card-img {
+        width: 500px;
+        height: 484px;
+        position: absolute;
+        left: 50%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        object-fit: cover;
+    }
+    .company {
+        display: flex;
+        gap: 100px;
+        margin-top: 130px;
+    }
+    .header-list {
+        display: none;
+    }
+
+    .header-list{
+        display: none;
+    }
+    .header-nav{
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .header-nav.open, .header-list{
+        display: flex;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        z-index: 1;
+        padding: 46px 30px;
+        flex-direction: column;
+       
+       
+    }   
+    .header-list{
+        display: flex;
+        flex-direction: column;
+        row-gap: 40px;
+    }
+    .header-link{
+        font-size: 36px;
+        
+    }
+    .header-link:active{
+        color: black;
+    }
+    .header-link:hover{
+        color:#DDDDDD; ;
+    }
+    .header-form{
+       position: fixed;
+        z-index: 9;
+        top: 30px;
+        right:   40px;
+    }
+    .header-logo{
+        top: 30px;
+    }
+    .company{
+       
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .arrow-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .arrow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .statistic{
+        background-color: #F9F6F5;
+    }
+    .statistic-list{
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    .beauty{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 400px;
+    }
+    .girl{
+        display: flex;
+        flex-direction: column;
+        row-gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer-item{
+        display: flex;
+        flex-direction: column;
+        row-gap: 50px;
+    }
+    .footer{
+        height: 1500px;
+    }
+    .footer-line{
+        width: 50%;
+    }
+}

@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Red-Bolditalic';
+    src: url(../fonts/RedHatText-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Red-Medium';
+    src: url(../fonts/RedHatText-Medium.ttf);
+}
+@font-face {
+    font-family: 'Red-Regular';
+    src: url(../fonts/RedHatText-Regular.ttf);
+}
+.main-title{
+    font-size: 56px;
+    font-family: 'Red-Medium';
+    font-weight:500 ;
+    line-height: 70px;
+}
+.main-desc{
+    font-size: 20px;
+    font-family:'Red-Regular' ;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+}
+.main-btn{
+    font-size: 18px;
+    font-family: 'Red-Medium';
+    line-height: 24px;
+    color: white;
+    text-decoration: none;
+
+}
+.arrow-hero{
+    font-size: 24px;
+    font-family:'Red-Medium' ;
+    line-height: 30px;
+    color: black;
+}
+.header-link{
+    font-family: 'Red-Medium';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight:500 ;
+
+}
+.card-btnn2{
+    font-family: 'Red-Medium';
+    color: #402F2C;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+}
+.card-btnn{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 500;
+    font-family: 'Red-Medium';
+}
+.card-caption{
+    font-family: 'Red-Medium';
+    font-size: 40px;
+    line-height: 60px;
+}
+.card-desc{
+    font-size: 20px;
+    font-family:'Red-Regular' ;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+}
+.stat-font{
+    font-family: 'Red-Bolditalic';
+    font-size: 56px;
+    line-height: 70px;
+}
+.stat-desc{
+    font-family:'Red-Regular' ;  
+    font-weight: 400;
+    line-height: 30px;
+    color: #555555;
+    font-size: 24px;
+}
+.beauty-font{
+    font-family: 'Red-Medium';
+    font-size: 56px;
+    line-height: 70px;
+}
+.beauty-desc{
+    font-size: 20px;
+    font-family:'Red-Regular' ;
+    font-weight: 400;
+    line-height: 32px;
+    color: #555555;
+}
+.girl-font{
+    font-family: 'Red-Medium';
+    font-size: 30px;
+    line-height: 40px;
+}
+.footer-btn{
+    font-family: 'Red-Medium';
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+}
+.footer-font{
+    font-family: 'Red-Medium';
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 500; 
+}
+.footer-style{
+    font-family: 'Red-Bolditalic';
+    font-size: 40px;
+    line-height: 50px;
+}
+.footer-hero{
+    font-family: 'Red-Medium';
+    font-size: 20px;
+    line-height: 24px;
+    font-weight:500 ;
+}
